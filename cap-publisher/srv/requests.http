@@ -1,0 +1,7 @@
+POST http://localhost:4004/odata/v4/mensajeria/sendMessage
+Content-Type: application/json
+
+{
+  "queue": "myQueue",
+  "message": "Enviado desde el publisher
+}
